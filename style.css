@@ -1,0 +1,18 @@
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(194, 84%, 95%);
+    background-size: contain;
+}

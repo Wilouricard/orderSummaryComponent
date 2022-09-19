@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Order summary card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(244, 100%, 58%);
+      }
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class=" flex flex-col justify-center items-center mt-20">
+    <div id="card" class="rounded-2xl bg-white w-80 mb-4">
+      <img src="./images/illustration-hero.svg" alt="" class="rounded-t-2xl w-full"/>
+
+      <div class="flex flex-col items-center justify-center">
+        <p class="text-2xl font-bold text-slate-700 mt-8">Order Summary</p>
+        <p class="text-[12px] text-slate-500 text-center mx-7 mt-4 mb-8" >
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+      </div>
+
+      <div class="flex mx-10 ">
+        <img src="./images/icon-music.svg" alt="" class="w-[40px] h-[40px] mt-2" />
+        <div class="pl-3 mr-auto">
+          <p class="text-[15px] font-bold text-slate-700">Annual Plan</p>
+          <p class="text-[14px] text-slate-500">$59.99/year</p>
+        </div>
+        <p class="pt-4 text-xs text-blue-800 font-bold underline hover:text-blue-500 active:text-purple-500"><a href="#">Change</a></p>
+      </div>
+      <div class="flex flex-col items-center my-8">
+        <button class="bg-blue-800 px-16 py-2 rounded-xl text-white font-semibold hover:bg-blue-500 active:bg-purple-500">Proceed to Payment</button>
+        <p class="pt-6 text-slate-500 font-semibold text-[14px] hover:text-slate-400 cursor-pointer active:text-black"><a>Cancel Order</a></p>
+      </div>
+
+      
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Wilou</a>.
+    </div>
+  </body>
+</html>
